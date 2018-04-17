@@ -3,7 +3,9 @@ package singleton;
 //¿Í»§¶Ë
 
 public class Client {
+
 	public static void main(String[] args) {
+
 		Singleton1 s1 = Singleton1.getInstance();
 		Singleton2 s2 = Singleton2.getInstance();
 		Singleton3 s3 = Singleton3.getInstance();
