@@ -1,5 +1,10 @@
 package singleton;
 
+//静态内部类单例
+//第一次加载Singleton时，SingletonHolder不会被加载。
+//只用调用getInstance()时，才加载SingletonHolder，并创建INSTANCE。
+//推荐大家使用。
+
 public class Singleton4 {
 	// 内部类，包含单例的对象
 	private static class SingletonHolder {

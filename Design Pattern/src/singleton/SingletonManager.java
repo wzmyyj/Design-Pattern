@@ -3,6 +3,9 @@ package singleton;
 import java.util.HashMap;
 import java.util.Map;
 
+//单例管理类
+//通过注册，可以管理多种类型的单例，使用统一接口，隐藏具体实现。
+
 public class SingletonManager {
 	// 容器
 	private static Map<String, Object> objMap = new HashMap<String, Object>();

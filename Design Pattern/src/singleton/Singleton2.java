@@ -1,5 +1,10 @@
 package singleton;
 
+//懒汉式单例
+//在第一次调用getInstance()时，创建单例对象。
+//synchronized关键字修饰，使getInstance()是一个同步方法。
+//保证多线程情况下单例对象的唯一。但是，同步会耗费资源。
+
 public class Singleton2 {
 	// 单例对象
 	private static Singleton2 INSTANCE = null;

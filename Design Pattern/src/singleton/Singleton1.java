@@ -1,5 +1,7 @@
 package singleton;
 
+//饿汉式单例
+//线程安全。但是没使用它时，就已经建立了对象，开销内存
 public class Singleton1 {
 	// 单例对象
 	private final static Singleton1 INSTANCE = new Singleton1();
